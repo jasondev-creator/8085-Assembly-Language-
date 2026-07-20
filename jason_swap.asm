@@ -1,0 +1,8 @@
+;program something
+LDA 2000
+MOV B,A
+LDA 2001
+STA 2000
+MOV A,B
+STA 2001
+HLT
